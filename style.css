@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #234;
+    height: 100vh;
+}
+.visualiser{
+    display: flex;
+    top: 0;
+    position: relative;
+}
+.piler{
+    width: calc(100vw/55 - 3.17px);
+    margin: 1.5px;
+    height: 0;
+    position: relative;
+    bottom:0;
+    transition: height 0.8s;
+    font-size: small;
+    color: lightblue;
+}
