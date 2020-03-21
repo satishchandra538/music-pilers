@@ -4,6 +4,8 @@ body{
     box-sizing: border-box;
     background-color: #234;
     height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 .visualiser{
     display: flex;
